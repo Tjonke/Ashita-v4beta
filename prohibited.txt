@@ -1,0 +1,10 @@
+(is)Job Points 500p/5m 2100p/20m master0-20/15m 20-30/30m 30-40/90m Buy? /tell
+(is)500p/5m
+(is)500p
+(is)2100p/20m
+(is)2100p
+(is)master0-20/15m
+(is)master0-20
+(is)20-30/30m
+(is)30-40/90
+(is)Buy?

@@ -1,0 +1,23 @@
+<lootwhore>
+
+	<settings>
+		<defaultaction>ignore</defaultaction>
+		<smartpass>disabled</smartpass>
+		<rarepass>disabled</rarepass>
+		<zonereset>disabled</zonereset>
+	</settings>
+
+	<itemlist>
+	</itemlist>
+
+	<droplist>
+		<item id="4362" /> <!--Lizard Egg-->
+		<item id="3086" /> <!--Molt Scraps-->
+		<item id="2148" /> <!--Puk Wing-->
+		<item id="5569" /> <!--Puk Egg-->
+	</droplist>
+
+	<storelist>
+	</storelist>
+
+</lootwhore>

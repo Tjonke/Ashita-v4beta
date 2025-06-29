@@ -1,0 +1,26 @@
+<lootwhore>
+
+	<settings>
+		<defaultaction>ignore</defaultaction>
+		<smartpass>disabled</smartpass>
+		<rarepass>disabled</rarepass>
+		<zonereset>enabled</zonereset>
+	</settings>
+
+	<itemlist>
+	</itemlist>
+
+	<droplist>
+		<item id="4098" /> <!--Wind Crystal-->
+		<item id="922" /> <!--Bat Wing-->
+		<item id="891" /> <!--Bat Fang-->
+		<item id="924" /> <!--Fiend Blood-->
+		<item id="930" /> <!--Beastman Blood-->
+		<item id="4400" /> <!--Land Crab Meat-->
+		<item id="4101" /> <!--Water Crystal-->
+	</droplist>
+
+	<storelist>
+	</storelist>
+
+</lootwhore>

@@ -22,12 +22,66 @@
 /load thirdparty
 /load addons
 /load screenshot
+/load pivot
+/load hardwaremouse
+/load Minimap
+/load nameplate
+/load sequencer
+/load stylist
+/load packetflow
+/load shorthand
+/load findall
+/load stylist
+//load lootwhore
 
+
+/addon load allmaps
+/addon load aspect
+/addon load balloon
+/addon load casper
+/addon load checker
+/addon load combatmessages
+/addon load craftmon
 /addon load distance
+/addon load drawdistance
+/addon load equipmon
+/addon load filterless
 /addon load fps
+/addon load instantah
+/addon load instantchat
+/addon load luashitacast
+/addon load macrofix
+/addon load minimap-helper
+/addon load mipmap
+/addon load mobdb
 /addon load move
+/addon load nolock
+/addon load nomount
+/addon load paranormal
+/addon load points
+/addon load recast
+//addon load simplelog
+//addon load skillchain
+//addon load statustimers
+/addon load stfu
+/addon load targetlines
+//addon load tcrossbar
 /addon load timestamp
 /addon load tparty
+/addon load xicamera
+/addon load xitools
+/addon load rolltracker
+/addon load enternity
+/addon load truesight
+/addon load chains
+/addon load mountmaster
+/addon load find
+/addon load fastcs
+/addon load autojoin
+/addon load omen
+//addon load nokb
+/shh packetws on
+/sl load Tjonke.xml
 
 ##########################################################################
 #
@@ -63,7 +117,17 @@
 # see any commands inside of this file!
 #
 ##########################################################################
+
 /wait 3
+/fps 2
+/cam d 10
+/cam b 30
+/drawdistance setmob 20
+/drawdistance setworld 20
+/drawdistance setentity 20
+/nameplate fontsize 40
+//fa config instantload
+
 ##########################################################################
 
 /ambient 255 255 255
