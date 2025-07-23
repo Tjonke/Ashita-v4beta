@@ -69,13 +69,13 @@ local sets = {
 		Ammo = 'Coiste Bodhar', --3
         Head = 'Hjarrandi Helm', --6
         Neck = 'War. Beads +2', --7
-        Ear1 = 'Cessance Earring', --3 -- 'Schere Earring'
+        Ear1 = 'Schere Earring', --3 
         Ear2 = 'Boii Earring', --7
         Body = 'Sakpata\'s Plate', --8
         Hands = 'Sakpata\'s Gauntlets', --6
         Ring1 = 'Petrov Ring', --1
         Ring2 = 'Chirich Ring +1', --
-        Back =  'Null Shawl', --7
+        Back =  { Name = 'Cichol\'s Mantle', Augment = { [1] = 'Damage taken-5%', [2] = '"Dbl.Atk."+10', [3] = 'Accuracy+30', [4] = 'Attack+20', [5] = 'DEX+20' } },
         Waist = 'Sailfi Belt +1', --5
         Legs = 'Pumm. Cuisses +3', --11
         Feet = 'Pumm. Calligae +3', --9 (101% tota)
@@ -163,15 +163,15 @@ local sets = {
         Ammo = 'Oshasha\'s Treatise',
         Head = 'Sakpata\'s Helm',
         Neck = 'Fotia Gorget',
-        Ear1 = 'Telos Earring',
-        Ear2 = 'Cessance Earring',
-        Body = 'Sakpata\'s Plate',
-        Hands = 'Sakpata\'s Gauntlets',
+        Ear1 = 'Thrud Earring',
+        Ear2 = 'Ishvara Earring',
+        Body = 'Pummeler\'s Lorica +3',
+        Hands = 'Boii Mufflers +2',
         Ring1 = 'Chirich Ring +1',
-        Ring2 = 'Rajas Ring',
-        Back = 'Phalangite mantle',
+        Ring2 = 'Epaminondas\'s Ring',
+        Back = { Name = 'Cichol\'s Mantle', Augment = { [1] = 'Phys. dmg. taken -10%', [2] = 'STR+30', [3] = 'Accuracy+20', [4] = 'Attack+20', [5] = 'Weapon skill damage +10%' } },
         Waist = 'Fotia Belt',
-        Legs = 'Sakpata\'s Cuisses',
+        Legs = 'Nyame Flanchard',
         Feet = 'Sakpata\'s Leggings',
     },
     Ws_Hybrid = {
@@ -180,8 +180,8 @@ local sets = {
     Ws_Acc = {
     },
     Aedge_Default = {
-        Ammo = 'Knobkierrie',
-        Head = { Name = 'Valorous Mask', Augment = { [1] = 'Attack+16', [2] = 'Weapon skill damage +10%', [3] = 'Accuracy+16', [4] = 'Pet: Mag. Acc.+1', [5] = 'Pet: STR+4' } },
+        Ammo = 'Oshasha\'s Treatise',
+        Head = 'Sakpata\'s Helm',
         --Head = 'Nyame Helm',
         Neck = 'Baetyl Pendant',
         Ear1 = 'Friomisi Earring',
@@ -190,7 +190,7 @@ local sets = {
         Hands = 'Nyame Gauntlets',
         Ring1 = 'Shiva Ring +1',
         Ring2 = 'Karieyh Ring +1',
-        Back = { Name = 'Cichol\'s Mantle', Augment = { [1] = 'STR+20', [2] = 'Weapon skill damage +10%', [3] = 'Attack+20', [4] = 'Accuracy+20' } },
+        Back = { Name = 'Cichol\'s Mantle', Augment = { [1] = 'Phys. dmg. taken -10%', [2] = 'STR+30', [3] = 'Accuracy+20', [4] = 'Attack+20', [5] = 'Weapon skill damage +10%' } },
         Waist = 'Eschan Stone',
         Legs = 'Nyame Flanchard',
         Feet = 'Nyame Sollerets',
@@ -203,15 +203,15 @@ local sets = {
         Ammo = 'Oshasha\'s Treatise',
         Head = 'Agoge Mask +2',
         Neck = 'War. Beads +2',
-        Ear1 = 'Telos Earring',
-        Ear2 = 'Cessance Earring',
+        Ear1 = 'Thrud Earring',
+        Ear2 = 'Ishvara Earring',
         Body = 'Pumm. Lorica +3',
-        Hands = 'Sakpata\'s Gauntlets',
-        Ring1 = 'Petrov Ring',
-        Ring2 = 'Chirich Ring +1',
-        Back = 'Phalangite mantle',
+        Hands = 'Boii Mufflers +2',
+        Ring1 = 'Epaminondas\'s Ring',
+        Ring2 = 'Petrov Ring',
+        Back = { Name = 'Cichol\'s Mantle', Augment = { [1] = 'Phys. dmg. taken -10%', [2] = 'STR+30', [3] = 'Accuracy+20', [4] = 'Attack+20', [5] = 'Weapon skill damage +10%' } },
         Waist = 'Sailfi Belt +1',
-        Legs = 'Sakpata\'s Cuisses',
+        Legs = 'Nyame Flanchard',
         Feet = 'Sulev. Leggings +2',
     },
     Savage_Hybrid = {
@@ -227,10 +227,10 @@ local sets = {
         Body = 'Sakpata\'s Plate',
         Hands = 'Sakpata\'s Gauntlets',
         Ring1 = 'Petrov Ring',
-        Ring2 = 'Chirich Ring +1',
-        Back = 'Phalangite mantle',
+        Ring2 = 'Epaminondas\'s Ring',
+        Back = { Name = 'Cichol\'s Mantle', Augment = { [1] = 'Phys. dmg. taken -10%', [2] = 'STR+30', [3] = 'Accuracy+20', [4] = 'Attack+20', [5] = 'Weapon skill damage +10%' } },
         Waist = 'Sailfi Belt +1',
-        Legs = 'Sakpata\'s Cuisses',
+        Legs = 'Nyame Flanchard',
         Feet = 'Sakpata\'s Leggings',
     },
     Impulse_Hybrid = {
@@ -282,6 +282,12 @@ local sets = {
     Movement = {
         Ring2 = 'Shneddick Ring +1',
 	},
+    ['TPBack'] = {
+        Back = { Name = 'Cichol\'s Mantle', Augment = { [1] = 'Damage taken-5%', [2] = '"Dbl.Atk."+10', [3] = 'Accuracy+30', [4] = 'Attack+20', [5] = 'DEX+20' } },
+    },
+    ['WSBack'] = {
+        Back = { Name = 'Cichol\'s Mantle', Augment = { [1] = 'Phys. dmg. taken -10%', [2] = 'STR+30', [3] = 'Accuracy+20', [4] = 'Attack+20', [5] = 'Weapon skill damage +10%' } },
+    },
 };
 profile.Sets = sets;
 

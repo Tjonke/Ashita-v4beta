@@ -129,8 +129,8 @@ local sets = {
         Ring2 = 'Moonlight Ring',
         Back = 'Rudianos\'s Mantle',
         Waist = 'Plat. Mog. Belt',
-        Legs = 'Chev. Cuisses +2',
-        Feet = 'Rev. Leggings +3',
+        Legs = 'Chev. Cuisses +3',
+        Feet = 'Rev. Leggings +4',
         },
     Tank_MEVA = {
         Ammo = 'Staunch Tathlum +1', --Vanir Battery alternative
@@ -157,7 +157,7 @@ local sets = {
         Body = 'Rev. Surcoat +3',--10
         Hands = 'Leyline Gloves',--7
         Ring2 = 'Medada\'s Ring', --10
-		Ring1 = 'Lebeche Ring',--4
+		Ring1 = 'Kishar Ring',--4
         Waist = 'Plat. Mog. Belt',
         Legs = 'Eschite Cuisses',--5
         Feet = 'Chev. Sabatons +2',--10
@@ -284,15 +284,15 @@ local sets = {
         Ammo = 'Oshasha\'s Treatise',
         Head = 'Sakpata\'s Helm',
         Neck = 'Fotia Gorget',
-        Ear1 = 'Telos Earring',
-        Ear2 = 'Cessance Earring',
+        Ear1 = 'Thrud Earring',
+        Ear2 = 'Ishvara Earring',
         Body = 'Sakpata\'s Plate',
-        Hands = 'Sakpata\'s Gauntlets',
+        Hands = 'Nyame Gauntlets',
         Ring1 = 'Chirich Ring +1',
-        Ring2 = 'Chirich Ring +1',
+        Ring2 = 'Epaminondas\'s Ring',
         Back = 'Phalangite mantle',
         Waist = 'Fotia Belt',
-        Legs = 'Sakpata\'s Cuisses',
+        Legs = 'Nyame Flanchard',
         Feet = 'Sakpata\'s Leggings',
     },
     Ws_Hybrid = {
@@ -310,7 +310,7 @@ local sets = {
 		Ring1 = 'Moonlight Ring',
 		Ring2 = 'Moonlight Ring',
         Back = 'Rudianos\'s Mantle',
-        Feet = 'Flam. Gambieras +2 ',
+        Feet = 'Sulev. Leggings +2',
 		Neck = 'Null Loop',
     },
     Chant_Hybrid = {
@@ -319,16 +319,16 @@ local sets = {
     },
     Savage_Default = {
         Head = 'Sakpata\'s Helm',
-        Neck = 'Asperity Necklace',
-        Ear1 = 'Telos Earring',
-        Ear2 = 'Cessance Earring',
+        Neck = 'Rep. Plat. Medal',
+        Ear1 = 'Thrud Earring',
+        Ear2 = 'Ishvara Earring',
         Body = 'Sakpata\'s Plate',
-        Hands = 'Sakpata\'s Gauntlets',
+        Hands = 'Nyame Gauntlets',
         Ring1 = 'Petrov Ring',
-        Ring2 = 'Moonlight Ring',
+        Ring2 = 'Epaminondas\'s Ring',
         Waist = 'Sailfi Belt +1',
 		Back = 'Null Shawl',
-        Legs = 'Sakpata\'s Cuisses',
+        Legs = 'Nyame Flanchard',
         Feet = 'Sulev. Leggings +2',
     },
     Savage_Hybrid = {
@@ -378,7 +378,7 @@ local sets = {
         Feet = 'Cab. Leggings +3',
     },
 	HolyCircle = {
-        Feet = 'Rev. Leggings +3',
+        Feet = 'Rev. Leggings +4',
     },
     Bash = {
         Hands = 'Cab. Gauntlets +3',
@@ -403,6 +403,9 @@ local sets = {
 		Waist = 'Chaac Belt',
 		Body = { Name = 'Odyss. Chestplate', Augment = { [1] = 'Accuracy+3', [2] = 'INT+3', [3] = 'Attack+3', [4] = '"Treasure Hunter"+2' } },
 	},
+	Holy_Water = {
+		Neck = 'Nicander\'s Necklace',
+	},	
     Movement = {
         Ammo = 'Staunch Tathlum +1',
         Head = 'Null Masque',
@@ -466,6 +469,15 @@ profile.HandleDefault = function()
 	    if gData.GetBuffCount('Silence') > 0 then
         AshitaCore:GetChatManager():QueueCommand(1, '/item "Echo Drops" <me>')
 	end
+		if gData.GetBuffCount('Poison') > 0 then
+        AshitaCore:GetChatManager():QueueCommand(1, '/item "Antidote" <me>')
+	end
+		if gData.GetBuffCount('Doom') > 0 then
+        AshitaCore:GetChatManager():QueueCommand(1, '/item "Holy Water" <me>')
+	end
+		if gData.GetBuffCount('Curse') > 0 then
+        AshitaCore:GetChatManager():QueueCommand(1, '/item "Holy Water" <me>')
+	end
 	
     local cover = gData.GetBuffCount('Cover');
 	if (cover >= 1) then
@@ -503,11 +515,6 @@ profile.HandleAbility = function()
     gcinclude.CheckCancels();
 end
 
-profile.HandleItem = function()
-    local item = gData.GetAction();
-
-	if string.match(item.Name, 'Holy Water') then gFunc.EquipSet(gcinclude.sets.Holy_Water) end
-end
 
 profile.HandlePrecast = function()
     local spell = gData.GetAction();

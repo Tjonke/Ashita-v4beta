@@ -178,10 +178,10 @@ local sets = {
         Ammo = 'Hydrocera',
 		Neck = 'Nodens Gorget',--I 5
         Ear1 = 'Mendi. Earring',--I 5
-        Ring1 = 'Stikini Ring +1',
+        Ring1 = 'Mephitas\'s Ring +1',
         Ring2 = 'Stikini Ring +1',
         Back = 'Solemnity Cape',
-        Waist = 'Rumination Sash',
+        Waist = 'Shinjutsu-no-Obi +1',
         Head = 'Vanya Hood',
 		Hands = 'Vanya Cuffs',
 		Legs = 'Vanya Slops',
@@ -190,12 +190,12 @@ local sets = {
     },
     Self_Cure = {--cap 30
         Waist = 'Gishdubar Sash',
-		Hands = 'Agwu\'s Gages',
-    },
+	},
     Regen = {
         -- Main = 'Bolelabunga',
         Sub = 'Culminus',
-        Body = 'Telchine Chas.',
+        Head = 'Telchine Cap',
+		Body = 'Telchine Chas.',
 		Waist = 'Embla Sash',
         Legs = { Name = 'Telchine Braconi', Augment = '"Regen" potency+3' },
         Feet = { Name = 'Telchine Pigaches', Augment = { [1] = '"Regen" potency+3', [2] = '"Regen"+2' } },
@@ -209,13 +209,19 @@ local sets = {
 		Neck = 'Debilis Medallion', --15
 		Back = 'Oretan. Cape +1', --5
     },
-
+	Self_Cursna = {
+		Ring1 = 'Haoma\'s Ring', --15
+		Ring2 = 'Haoma\'s Ring', --15
+		Feet = 'Vanya Clogs', --5
+		Neck = 'Nicander\'s Necklace', --15
+		Back = 'Oretan. Cape +1', --5
+	},
     Enhancing = {
         Main = 'Idris',
         Sub = 'Culminus',
        -- Ammo = 'Pemphredo Tathlum',
-       -- Head = 'Befouled Crown',
-        Head = 'Telchine Cap',
+        Head = 'Befouled Crown',
+        --Head = 'Telchine Cap',
 		Neck = 'Incanter\'s Torque',
         Ear1 = 'Mendi. Earring',
         Ear2 = 'Andoaa Earring',
@@ -275,7 +281,7 @@ local sets = {
         Main = 'Idris',
         Sub = 'Culminus',
 		Ammo = 'Quartz Tathlum +1',
-        Head = 'Null Masque',
+        Head = 'Befouled Crown',
         Neck = 'Incanter\'s Torque',
         --Ear1 = 'Regal Earring',--use this when u upgrade the AF
         Ear1 = 'Enchantr. Earring +1',
@@ -330,9 +336,9 @@ local sets = {
         Main = 'Idris',
         Sub = 'Culminus',
         -- Ammo = 'Pemphredo Tathlum',
-        Ammo = 'Hydrocera',
+        Ammo = 'Ghastly Tathlum +1',
 		Head = 'Azimuth Hood +3',
-        Neck = 'Sanctity Necklace',
+        Neck = 'Sibyl Scarf',
         Ear2 = 'Azimuth Earring +1',
         Ear1 = 'Malignance Earring',
         Body = 'Azimuth Coat +2',
@@ -383,7 +389,7 @@ local sets = {
         Body = 'Nyame Mail',
         Hands = 'Azimuth Gloves +2',
         Ring1 = 'Petrov Ring',
-        Ring2 = 'Chirich Ring +1',
+        Ring2 = 'Epaminondas\'s Ring',
         Back = 'Null Shawl',
         Waist = 'Null Belt',
         Legs = 'Nyame Flanchard',

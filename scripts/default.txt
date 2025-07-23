@@ -24,7 +24,7 @@
 /load screenshot
 /load pivot
 /load hardwaremouse
-/load Minimap
+//load Minimap
 /load nameplate
 /load sequencer
 /load stylist
@@ -51,7 +51,7 @@
 /addon load instantchat
 /addon load luashitacast
 /addon load macrofix
-/addon load minimap-helper
+//addon load minimap-helper
 /addon load mipmap
 /addon load mobdb
 /addon load move
@@ -82,6 +82,7 @@
 //addon load nokb
 /shh packetws on
 /sl load Tjonke.xml
+/addon load ttimers
 
 ##########################################################################
 #

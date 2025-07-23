@@ -10,13 +10,13 @@ local sets = {
         Neck = 'Loricate Torque +1',
         Ear1 = 'Halasz Earring',
         Ear2 = 'Etiolation Earring',
-        Body = 'Agwu\'s Robe',
+        Body = 'Jhakri Robe +2',
         Hands = 'Nyame Gauntlets',
         Ring1 = 'Stikini Ring +1',
         Ring2 = 'Stikini Ring +1',
         Back = 'Moonlight Cape',
         Waist = 'Plat. Mog. Belt',
-        Legs = 'Nyame Flanchard',
+        Legs = 'Assid. Pants +1',
         Feet = 'Nyame Sollerets',
     },
     Idle_Staff = {
@@ -44,10 +44,10 @@ local sets = {
         Ammo = 'Homiliary',
         Head = 'Peda. M.Board +3',
         Neck = 'Elite Royal Collar',
-        Body = 'Agwu\'s Robe',
+        Body = 'Arbatel Gown +2',
         Hands = 'Agwu\'s Gages',
         Back = 'Moonlight Cape',
-        Legs = 'Agwu\'s Slops',
+        Legs = 'Arbatel Pants +2',
         Feet = 'Agwu\'s Pigaches',
 		Ring2 = 'Shneddick Ring +1',
 		Ring1 = 'Defending Ring',
@@ -70,7 +70,7 @@ local sets = {
         Ring2 = 'Gelatinous Ring +1',
         Back = 'Moonlight Cape',
         Waist = 'Plat. Mog. Belt',
-        Legs = 'Nyame Flanchard',
+        Legs = 'Arbatel Pants +2',
         Feet = 'Nyame Sollerets',
     },
 
@@ -109,7 +109,7 @@ local sets = {
         Body = 'Agwu\'s Robe', --8
         Hands = 'Acad. Bracers +2', --7
         Ring2 = 'Medada\'s Ring', --10
-		Ring1 = 'Lebeche Ring', --
+		Ring1 = 'Kishar Ring', --
         Back = 'Fi Follet Cape +1', --6
         Waist = 'Embla Sash', --5
         Legs = 'Agwu\'s Slops', --7
@@ -118,6 +118,11 @@ local sets = {
     Cure_Precast = {
         Ear1 = 'Mendi. Earring',
         Feet = 'Vanya Clogs',
+		Body = 'Vanya Robe',
+		Legs = 'Kaykaus Tights +1',--11
+		Hands = 'Vanya Cuffs',
+		Head = 'Vanya Hood',
+		Back = 'Disperser\'s Cape',
     },
     Enhancing_Precast = {
         Waist = 'Siegel Sash',
@@ -132,24 +137,23 @@ local sets = {
     Cure = {--I cap is 50, II cap is 30
         Main = 'Musa',--I 30
         Sub = 'Khonsu',
-        Ammo = 'Hydrocera',
+        Ammo = 'Ombre Tathlum +1',
         Head = 'Vanya Hood',
-		Body = 'Vanya Robe',
-		Neck = 'Nodens Gorget',--I 5
+		Body = 'Kaykaus Bliaut +1',
+		Neck = 'Incanter\'s Torque',--I 5
         Ear1 = 'Mendi. Earring',--I 5
-        Ear2 = 'Halasz Earring',
-        Hands = { Name = 'Telchine Gloves', Augment = '"Regen" potency+3' },
-        Ring1 = 'Stikini Ring +1',
+        Ear2 = 'Etiolation Earring',
+        Hands = 'Kaykaus Cuffs +1',
+        Ring1 = 'Mephitas\'s Ring +1',
         Ring2 = 'Lebeche Ring',
-        Back = 'Solemnity Cape',--I 7
-        Waist = 'Rumination Sash',
-        Legs = 'Vanya Slops',--11
+        Back = 'Fi Follet Cape +1',--I 7
+        Waist = 'Shinjutsu-no-Obi +1',
+        Legs = 'Kaykaus Tights +1',--11
         Feet = 'Vanya Clogs',--I 10
     },
     Self_Cure = {--cap 30
         Waist = 'Gishdubar Sash',
-		Hands = 'Agwu\'s Gages',
-    },
+	},
     Regen = {
         Main = 'Musa',
         Sub = 'Khonsu',
@@ -174,7 +178,14 @@ local sets = {
 		Neck = 'Debilis Medallion', --15
 		Back = 'Oretan. Cape +1', --5
     },
-
+		Self_Cursna = {
+		Ring1 = 'Haoma\'s Ring', --15
+		Ring2 = 'Haoma\'s Ring', --15
+		Feet = 'Vanya Clogs', --5
+		Neck = 'Nicander\'s Necklace', --20
+		Back = 'Oretan. Cape +1', --5
+	},	
+		
     Enhancing = {
         Main = 'Musa',
         Sub = 'Khonsu',
@@ -202,34 +213,36 @@ local sets = {
     Refresh = {
 		Waist = 'Gishdubar Sash',
     },
-    Self_Refresh = {},
+    Self_Refresh = {
+		Waist = 'Gishdubar Sash',
+	},
 
     Enfeebling = {
         Main = 'Musa',
         Sub = 'Khonsu',
         Ammo = 'Quartz Tathlum +1',
-        Head = 'Null Masque',
+        Head = 'Befouled Crown',
         Neck = 'Null Loop',
         Ear2 = 'Arbatel Earring +1',
         Ear1 = 'Malignance Earring',
-        Body = 'Acad. Gown +2',
+        Body = 'Arbatel Gown +2',
         Hands = 'Peda. Bracers +1',
         Ring1 = 'Stikini Ring +1',
-        Ring2 = 'Stikini Ring +1',
+        Ring2 = 'Kishar Ring',
         Back = 'Null Shawl',
         Waist = 'Rumination Sash',
-        Legs = 'Acad. Pants +2',
+        Legs = 'Arbatel Pants +2',
         Feet = 'Acad. Loafers +2',
     },
 
     Drain = {
         Main = 'Musa',
-        Ammo = 'Ghastly Tathlum',
+        Ammo = 'Ghastly Tathlum +1',
         Head = 'Pixie Hairpin +1',
         Neck = 'Incanter\'s Torque',
         Ear1 = 'Malignance Earring',
         Ear2 = 'Arbatel Earring +1',
-        Body = 'Acad. Gown +2',
+        Body = 'Acad. Gown +3',
         Hands = 'Acad. Bracers +2',
         Ring1 = 'Stikini Ring +1',
         Ring2 = 'Evanescence Ring',
@@ -242,32 +255,33 @@ local sets = {
     Nuke = {
         Main = 'Musa',
         Sub = 'Khonsu',
-        Ammo = 'Ghastly Tathlum',
+        Ammo = 'Ghastly Tathlum +1',
         Head = 'Peda. M.Board +3',
-        Neck = 'Sanctity Necklace',
+        Neck = 'Sibyl Scarf',
         Ear2 = 'Arbatel Earring +1',
         Ear1 = 'Malignance Earring',
-        Body = 'Acad. Gown +2',
-        Hands = 'Amalric Gages +1',
+        Body = 'Arbatel Gown +2',
+        Hands = 'Agwu\'s Gages',
         Ring1 = 'Medada\'s Ring',
         Ring2 = 'Jhakri Ring',
         Back = 'Lugh\'s Cape',
         Waist = 'Eschan Stone',
-        Legs = 'Amalric Slops +1',
-        Feet = 'Amalric Nails +1',
+        Legs = 'Agwu\'s Slops',
+        Feet = 'Agwu\'s Pigaches',
     },
     NukeACC = {
         Neck = 'Null Loop',
         Waist = 'Null Belt',
+		Body = 'Acad. Gown +3',
     },
     Burst = {
         Main = 'Musa', -- 10 and 0
         Sub = 'Khonsu',
-        Ammo = 'Ghastly Tathlum',
+        Ammo = 'Ghastly Tathlum +1',
         Head = 'Peda. M.Board +3', -- 0 and 4
         Neck = 'Mizu. Kubikazari', -- 7 and 0
         Body = 'Agwu\'s Robe', -- 10 and 0
-        Hands = 'Amalric Gages +1', -- 0 and 6
+        Hands = 'Agwu\'s Gages', -- 0 and 6
         Ring1 = 'Mujin Band', -- 0 and 5
 		Ring2 = 'Jhakri Ring',
 		Back = 'Lugh\'s Cape',
@@ -280,7 +294,7 @@ local sets = {
     Helix = {
         Main = 'Musa',
         Sub = 'Khonsu',
-        Ammo = 'Ghastly Tathlum',
+        Ammo = 'Ghastly Tathlum +1',
         Head = 'Agwu\'s Cap',
         Neck = 'Null Loop',
         Ear1 = 'Malignance Earring',
@@ -294,14 +308,14 @@ local sets = {
         Legs = 'Agwu\'s Slops',
         Feet = 'Agwu\'s Pigaches',
     },
-    HHelixBurst = {
+    HelixBurst = {
         Ring1 = 'Medada\'s Ring',
 		Ring2 = 'Mujin Band',
         Feet = 'Agwu\'s Pigaches', -- 6 and 0
 		Back = { Name = 'Bookworm\'s Cape', Augment = { [1] = 'Helix eff. dur. +20', [2] = 'MND+1', [3] = 'INT+5' } },
     },
     Storm = {
-        Feet = 'Peda. Loafers +1',
+        Feet = 'Peda. Loafers +2',
     },
     Kaustra = {--need to refine this set
         Main = 'Bunzi\'s Rod',
@@ -350,7 +364,7 @@ local sets = {
         Neck = 'Sanctity Necklace',
         Ear1 = 'Mendi. Earring',
         Ear2 = 'Etiolation Earring',
-        Body = 'Acad. Gown +2',
+        Body = 'Acad. Gown +3',
         Hands = 'Nyame Gauntlets',
         Ring1 = 'Sangoma Ring',
         Ring2 = 'Metamor. Ring +1',

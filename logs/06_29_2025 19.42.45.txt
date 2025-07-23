@@ -318,3 +318,136 @@
 06/29/2025 19:44:06.499 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/findall.dll'
 06/29/2025 19:44:06.557 | DEBUG    |                                PluginManager::Load | Loaded plugin: FindAll - Version: 1.17 - By: Thorny
 06/29/2025 19:44:06.558 | ERROR    |                                PluginManager::Load | Failed to load plugin 'stylist'; plugin is already loaded.
+06/29/2025 19:45:44.195 | DEBUG    |                    PacketManager::PatchLogFilePath | Patched log file path! [Path: TEMP/Ebisurods]
+06/29/2025 19:51:35.413 | DEBUG    |                    PacketManager::PatchLogFilePath | Patched log file path! [Path: TEMP/Tjonke]
+06/29/2025 20:21:06.795 | DEBUG    |                    PacketManager::PatchLogFilePath | Patched log file path! [Path: TEMP/Ebisurods]
+06/29/2025 22:11:48.777 | DEBUG    |                    PacketManager::PatchLogFilePath | Patched log file path! [Path: TEMP/Tjonke]
+06/29/2025 23:34:16.511 | INFO     |                                            FindAll | Found a Tukuku whiteshell in Tjonke's inventory.
+06/29/2025 23:34:16.512 | INFO     |                                            FindAll | Found 112 Tukuku whiteshells in Tjonke's safe2.
+06/29/2025 23:34:16.512 | INFO     |                                            FindAll | Found a total of 113 Tukuku whiteshells on Tjonke.
+06/29/2025 23:41:09.411 | DEBUG    |                    PacketManager::PatchLogFilePath | Patched log file path! [Path: TEMP/Ebisurods]
+06/30/2025 02:40:57.627 | DEBUG    |                                Keyboard::~Keyboard | .dtor
+06/30/2025 02:40:57.627 | DEBUG    |                          InputManager::SetKeyboard | Setting new keyboard instance..
+06/30/2025 02:40:57.628 | DEBUG    |  newIDirectInputDevice8A::~newIDirectInputDevice8A | .dtor
+06/30/2025 02:40:57.628 | DEBUG    |                          InputManager::SetKeyboard | Setting new keyboard instance..
+06/30/2025 02:40:57.628 | DEBUG    |                             InputManager::SetMouse | Setting new mouse instance..
+06/30/2025 02:40:57.628 | DEBUG    |                                      Mouse::~Mouse | .dtor
+06/30/2025 02:40:57.628 | DEBUG    |              newIDirectInput8A::~newIDirectInput8A | .dtor
+06/30/2025 02:40:57.708 | DEBUG    |          newIDirect3DDevice8::~newIDirect3DDevice8 | .dtor
+06/30/2025 02:40:57.708 | DEBUG    |                           AshitaCore::GameUnloaded | GameUnloaded event invoked.
+06/30/2025 02:40:57.708 | DEBUG    |                               ChatManager::Release | <Begin>
+06/30/2025 02:40:57.708 | DEBUG    |                           CommandTaskPool::Release | <Begin>
+06/30/2025 02:40:57.709 | DEBUG    |                           CommandTaskPool::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.709 | DEBUG    |                  CommandTaskPool::~CommandTaskPool | .dtor
+06/30/2025 02:40:57.709 | DEBUG    |                           CommandTaskPool::Release | <Begin>
+06/30/2025 02:40:57.709 | DEBUG    |                           CommandTaskPool::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.709 | DEBUG    |                               ChatManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.709 | DEBUG    |                             PluginManager::Release | <Begin>
+06/30/2025 02:40:57.709 | DEBUG    |                           PluginManager::UnloadAll | Unloading all plugins.
+06/30/2025 02:40:57.710 | DEBUG    |                      PluginManager::ProcessPlugins | Unloaded plugin: Shorthand
+06/30/2025 02:40:57.710 | DEBUG    |                      PluginManager::ProcessPlugins | Unloaded plugin: thirdparty
+06/30/2025 02:40:57.942 | DEBUG    |                      PluginManager::ProcessPlugins | Unloaded plugin: Addons
+06/30/2025 02:40:57.942 | DEBUG    |                      PluginManager::ProcessPlugins | Unloaded plugin: screenshot
+06/30/2025 02:40:57.942 | DEBUG    |                      PluginManager::ProcessPlugins | Unloaded plugin: hardwaremouse
+06/30/2025 02:40:57.943 | DEBUG    |                      PluginManager::ProcessPlugins | Unloaded plugin: Minimap
+06/30/2025 02:40:57.943 | DEBUG    |                      PluginManager::ProcessPlugins | Unloaded plugin: Sequencer
+06/30/2025 02:40:57.944 | DEBUG    |                      PluginManager::ProcessPlugins | Unloaded plugin: Stylist
+06/30/2025 02:40:57.944 | DEBUG    |                      PluginManager::ProcessPlugins | Unloaded plugin: FindAll
+06/30/2025 02:40:57.944 | DEBUG    |                             PluginManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.944 | DEBUG    |                             MemoryManager::Release | <Begin>
+06/30/2025 02:40:57.944 | DEBUG    |                             MemoryManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.944 | DEBUG    |                             PacketManager::Release | <Begin>
+06/30/2025 02:40:57.944 | DEBUG    |                             PacketManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.944 | DEBUG    |                          PrimitiveManager::Release | <Begin>
+06/30/2025 02:40:57.944 | DEBUG    |                          PrimitiveManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.944 | DEBUG    |                               FontManager::Release | <Begin>
+06/30/2025 02:40:57.944 | DEBUG    |                               FontManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.944 | DEBUG    |                                GuiManager::Release | <Begin>
+06/30/2025 02:40:57.947 | DEBUG    |                                GuiManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.947 | DEBUG    |                              InputManager::Release | <Begin>
+06/30/2025 02:40:57.947 | DEBUG    |                            Controller::~Controller | .dtor
+06/30/2025 02:40:57.947 | DEBUG    |                        InputManager::SetController | Setting new controller instance..
+06/30/2025 02:40:57.947 | DEBUG    |                            Controller::~Controller | <End> [Status: Ok!]
+06/30/2025 02:40:57.947 | DEBUG    |  newIDirectInputDevice8A::~newIDirectInputDevice8A | .dtor
+06/30/2025 02:40:57.947 | DEBUG    |                                    XInput::~XInput | .dtor
+06/30/2025 02:40:57.947 | DEBUG    |                              InputManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.947 | DEBUG    |                            PointerManager::Release | <Begin>
+06/30/2025 02:40:57.947 | DEBUG    |                            PointerManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:57.947 | DEBUG    |                           ResourceManager::Release | <Begin>
+06/30/2025 02:40:58.160 | DEBUG    |                           ResourceManager::Release | <End> [Status: Ok!]
+06/30/2025 02:40:58.160 | DEBUG    |                           AshitaCore::GameUnloaded | GameUnloaded event finished.
+06/30/2025 02:40:58.160 | DEBUG    |                      newIDirect3D8::~newIDirect3D8 | .dtor
+06/30/2025 02:40:59.187 | DEBUG    |        Ashita::Hooks::Window::Mine_CreateWindowExW | CreateWindowExW - Creating PlayOnline window. [dwExStyle: 0][dwStyle: 13238272][Pos: 256 x 524][Size: 653 x 517]
+06/30/2025 02:41:02.374 | DEBUG    |                                    UninstallAshita | Uninstalling Ashita from the current process. (5052)
+06/30/2025 02:41:02.374 | DEBUG    |                                AshitaCore::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                          PolPluginManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                        PolPluginManager::UnloadAll | Unloading all POL plugins.
+06/30/2025 02:41:02.374 | INFO     |                                              pivot | m_hooksSet = false
+06/30/2025 02:41:02.374 | DEBUG    |                             PolPluginManager::Tick | Unloaded POL plugin: pivot
+06/30/2025 02:41:02.374 | DEBUG    |                          PolPluginManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                PolPluginManager::~PolPluginManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                             PluginManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                           PluginManager::UnloadAll | Unloading all plugins.
+06/30/2025 02:41:02.374 | DEBUG    |                             PluginManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                      PluginManager::~PluginManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                              InputManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                              InputManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                        InputManager::~InputManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                             MemoryManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                             MemoryManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                      MemoryManager::~MemoryManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                            PointerManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                            PointerManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                    PointerManager::~PointerManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                             OffsetManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                             OffsetManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                      OffsetManager::~OffsetManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                             PacketManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                             PacketManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                      PacketManager::~PacketManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                          PrimitiveManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                          PrimitiveManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                PrimitiveManager::~PrimitiveManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                          PrimitiveManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                          PrimitiveManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                               FontManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                               FontManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                          FontManager::~FontManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                               FontManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                               FontManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                           ResourceManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                           ResourceManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                  ResourceManager::~ResourceManager | .dtor
+06/30/2025 02:41:02.374 | DEBUG    |                           ResourceManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                           ResourceManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                                GuiManager::Release | <Begin>
+06/30/2025 02:41:02.374 | DEBUG    |                                GuiManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.374 | DEBUG    |                            GuiManager::~GuiManager | .dtor
+06/30/2025 02:41:02.375 | DEBUG    |                                Properties::Release | <Begin>
+06/30/2025 02:41:02.375 | DEBUG    |                                Properties::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.375 | DEBUG    |                            Properties::~Properties | .dtor
+06/30/2025 02:41:02.375 | DEBUG    |                               ChatManager::Release | <Begin>
+06/30/2025 02:41:02.375 | DEBUG    |                               ChatManager::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.375 | DEBUG    |                          ChatManager::~ChatManager | .dtor
+06/30/2025 02:41:02.375 | DEBUG    |                                AshitaCore::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.375 | DEBUG    |                  Ashita::Hooks::DirectX::Uninstall | <Begin>
+06/30/2025 02:41:02.375 | DEBUG    |                  Ashita::Hooks::DirectX::Uninstall | <End> [Status: Ok!]
+06/30/2025 02:41:02.375 | DEBUG    |                    Ashita::Hooks::Mutex::Uninstall | <Begin>
+06/30/2025 02:41:02.375 | DEBUG    |                    Ashita::Hooks::Mutex::Uninstall | <End> [Status: Ok!]
+06/30/2025 02:41:02.375 | DEBUG    |                 Ashita::Hooks::Registry::Uninstall | <Begin>
+06/30/2025 02:41:02.375 | DEBUG    |                 Ashita::Hooks::Registry::Uninstall | <End> [Status: Ok!]
+06/30/2025 02:41:02.375 | DEBUG    |                   Ashita::Hooks::Window::Uninstall | <Begin>
+06/30/2025 02:41:02.375 | DEBUG    |                   Ashita::Hooks::Window::Uninstall | <End>
+06/30/2025 02:41:02.375 | DEBUG    |                                    UninstallAshita | Finished!
+06/30/2025 02:41:02.436 | DEBUG    |                                    UninstallAshita | Uninstalling Ashita from the current process. (5052)
+06/30/2025 02:41:02.436 | DEBUG    |                                AshitaCore::Release | <Begin>
+06/30/2025 02:41:02.436 | DEBUG    |                                AshitaCore::Release | <End> [Status: Ok!]
+06/30/2025 02:41:02.436 | DEBUG    |                  Ashita::Hooks::DirectX::Uninstall | <Begin>
+06/30/2025 02:41:02.437 | DEBUG    |                  Ashita::Hooks::DirectX::Uninstall | <End> [Status: Ok!]
+06/30/2025 02:41:02.437 | DEBUG    |                    Ashita::Hooks::Mutex::Uninstall | <Begin>
+06/30/2025 02:41:02.437 | DEBUG    |                    Ashita::Hooks::Mutex::Uninstall | <End> [Status: Ok!]
+06/30/2025 02:41:02.437 | DEBUG    |                 Ashita::Hooks::Registry::Uninstall | <Begin>
+06/30/2025 02:41:02.437 | DEBUG    |                 Ashita::Hooks::Registry::Uninstall | <End> [Status: Ok!]
+06/30/2025 02:41:02.437 | DEBUG    |                   Ashita::Hooks::Window::Uninstall | <Begin>
+06/30/2025 02:41:02.437 | DEBUG    |                   Ashita::Hooks::Window::Uninstall | <End>
+06/30/2025 02:41:02.437 | DEBUG    |                                    UninstallAshita | Finished!

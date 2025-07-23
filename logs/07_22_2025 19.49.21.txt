@@ -1,0 +1,380 @@
+07/22/2025 19:49:21.378 | DEBUG    |                                      InstallAshita | Installing Ashita into the current process.
+07/22/2025 19:49:21.378 | DEBUG    |                             AshitaCore::AshitaCore | .ctor
+07/22/2025 19:49:21.378 | DEBUG    |                             AshitaCore::Initialize | <Begin>
+07/22/2025 19:49:21.378 | DEBUG    |                             AshitaCore::Initialize | ----------------------------------------------------------------------------------------------------
+07/22/2025 19:49:21.378 | DEBUG    |                             AshitaCore::Initialize | Starting initialization...
+07/22/2025 19:49:21.378 | DEBUG    |                             AshitaCore::Initialize |  - Ashita Install Path : C:\Ashita\Ashita-v4beta\
+07/22/2025 19:49:21.378 | DEBUG    |                             AshitaCore::Initialize |  - Ashita Config Script: \boot\example-retail.ini
+07/22/2025 19:49:21.379 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\boot\example-retail.ini
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | ----------------------------------------------------------------------------------------------------
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | >> BOOT CONFIGURATION DUMP <<
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.launcher]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   autoclose : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   name : Example Configuration
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.boot]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   file : 
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   gamemodule : ffximain.dll
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   script : default.txt
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   args : 
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.fonts]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   d3d8.disable_scaling : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   d3d8.family : Arial
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   d3d8.height : 10
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.input]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   gamepad.allowbackground : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   gamepad.disableenumeration : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   keyboard.blockinput : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   keyboard.blockbindsduringinput : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   keyboard.silentbinds : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   keyboard.windowskeyenabled : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   mouse.blockinput : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   mouse.unhook : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.language]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   playonline : 2
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   ashita : 2
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.logging]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   level : 5
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   crashdumps : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.misc]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   addons.silent : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   aliases.silent : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   plugins.silent : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.resources]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   offsets.use_overrides : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   pointers.use_overrides : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   resources.use_overrides : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.taskpool]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   threadcount : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.window.startpos]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   x : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   y : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ashita.polplugins]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   sandbox : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   pivot : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ffxi.direct3d8]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   presentparams.backbufferformat : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   presentparams.backbuffercount : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   presentparams.multisampletype : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   presentparams.swapeffect : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   presentparams.enableautodepthstencil : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   presentparams.autodepthstencilformat : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   presentparams.flags : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   presentparams.fullscreen_refreshrateinhz : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   presentparams.fullscreen_presentationinterval : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   behaviorflags.fpu_preserve : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | [ffxi.registry]
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0000 : 6
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0001 : 1920
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0002 : 1080
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0003 : 4096
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0004 : 4096
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0005 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0006 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0007 : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0008 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0009 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0010 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0011 : 2
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0012 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0013 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0014 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0015 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0016 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0017 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0018 : 2
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0019 : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0020 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0021 : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0022 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0023 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0024 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0025 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0026 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0027 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0028 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0029 : 20
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0030 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0031 : 1002740646
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0032 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0033 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0034 : 2
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0035 : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0036 : 2
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0037 : 1920
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0038 : 1080
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0039 : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0040 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0041 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0042 : C:\Program Files (x86)\SquareEnix\FINAL FANTASY XI
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0043 : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0044 : 1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   0045 : 0
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   padmode000 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   padsin000 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize |   padguid000 : -1
+07/22/2025 19:49:21.381 | DEBUG    |                             AshitaCore::Initialize | ----------------------------------------------------------------------------------------------------
+07/22/2025 19:49:21.381 | DEBUG    |                             Properties::Properties | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                           ChatManager::ChatManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                           FontManager::FontManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                             GuiManager::GuiManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |   newIDirectInputDevice8A::newIDirectInputDevice8A | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                             Controller::Controller | null.ctor
+07/22/2025 19:49:21.381 | DEBUG    |                                     XInput::XInput | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                         InputManager::InputManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                       MemoryManager::MemoryManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                       OffsetManager::OffsetManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                       PacketManager::PacketManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                       PluginManager::PluginManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                 PolPluginManager::PolPluginManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                     PointerManager::PointerManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                 PrimitiveManager::PrimitiveManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                   ResourceManager::ResourceManager | .ctor
+07/22/2025 19:49:21.381 | DEBUG    |                             Properties::Initialize | <Begin>
+07/22/2025 19:49:21.381 | DEBUG    |                             Properties::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.381 | DEBUG    |                           InputManager::Initialize | <Begin>
+07/22/2025 19:49:21.381 | DEBUG    |                           InputManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.381 | DEBUG    |                          OffsetManager::Initialize | <Begin>
+07/22/2025 19:49:21.381 | DEBUG    |                          OffsetManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.381 | DEBUG    |                         PointerManager::Initialize | <Begin>
+07/22/2025 19:49:21.381 | DEBUG    |                         PointerManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.381 | DEBUG    |                          MemoryManager::Initialize | <Begin>
+07/22/2025 19:49:21.381 | DEBUG    |                             MemoryManager::Release | <Begin>
+07/22/2025 19:49:21.381 | DEBUG    |                             MemoryManager::Release | <End> [Status: Ok!]
+07/22/2025 19:49:21.381 | DEBUG    |                          MemoryManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.382 | DEBUG    |                            ChatManager::Initialize | <Begin>
+07/22/2025 19:49:21.382 | DEBUG    |                            ChatManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.382 | DEBUG    |                          PacketManager::Initialize | <Begin>
+07/22/2025 19:49:21.382 | DEBUG    |                          PacketManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.382 | DEBUG    |                          PluginManager::Initialize | <Begin>
+07/22/2025 19:49:21.382 | DEBUG    |                          PluginManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.382 | DEBUG    |                       PolPluginManager::Initialize | <Begin>
+07/22/2025 19:49:21.383 | INFO     |                                              pivot | Using config file: 'C:\Ashita\Ashita-v4beta\config\pivot\pivot.ini'
+07/22/2025 19:49:21.383 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\pivot\pivot.ini
+07/22/2025 19:49:21.383 | DEBUG    |                                              pivot | >> pivot settings <<
+07/22/2025 19:49:21.383 | DEBUG    |                                              pivot | root_path C:\Ashita\Ashita-v4beta\polplugins\DATs
+07/22/2025 19:49:21.383 | DEBUG    |                                              pivot | debug_log false
+07/22/2025 19:49:21.383 | DEBUG    |                                              pivot | redirect_fopens true
+07/22/2025 19:49:21.383 | DEBUG    |                                              pivot | overlays:
+07/22/2025 19:49:21.383 | DEBUG    |                                              pivot | [00] XI-View
+07/22/2025 19:49:21.383 | DEBUG    |                                              pivot | [01] XI-Vision
+07/22/2025 19:49:21.383 | DEBUG    |                                              pivot | 
+07/22/2025 19:49:21.383 | INFO     |                                              pivot | m_logDebug = Discard
+07/22/2025 19:49:21.383 | INFO     |                                              pivot | m_rootPath = 'C:\Ashita\Ashita-v4beta\polplugins\DATs'
+07/22/2025 19:49:21.383 | INFO     |                                              pivot | addOverlay: 'XI-View'
+07/22/2025 19:49:21.384 | INFO     |                                              pivot | => success
+07/22/2025 19:49:21.384 | INFO     |                                              pivot | addOverlay: 'XI-Vision'
+07/22/2025 19:49:21.384 | WARN     |                                              pivot | WARNING:       12: ignoring 'C:\ASHITA\ASHITA-V4BETA\POLPLUGINS\DATS/XI-VISION//ROM/0/12.DAT'
+07/22/2025 19:49:21.385 | WARN     |                                              pivot | WARNING:   119051: ignoring 'C:\ASHITA\ASHITA-V4BETA\POLPLUGINS\DATS/XI-VISION//ROM/119/51.DAT'
+07/22/2025 19:49:21.385 | WARN     |                                              pivot | WARNING:   119057: ignoring 'C:\ASHITA\ASHITA-V4BETA\POLPLUGINS\DATS/XI-VISION//ROM/119/57.DAT'
+07/22/2025 19:49:21.385 | WARN     |                                              pivot | WARNING:   280015: ignoring 'C:\ASHITA\ASHITA-V4BETA\POLPLUGINS\DATS/XI-VISION//ROM/280/15.DAT'
+07/22/2025 19:49:21.389 | INFO     |                                              pivot | => success
+07/22/2025 19:49:21.398 | INFO     |                                              pivot | enabling fopen_s hook
+07/22/2025 19:49:21.398 | INFO     |                                              pivot | m_hooksSet = true
+07/22/2025 19:49:21.398 | DEBUG    |                             PolPluginManager::Load | Loaded POL plugin: pivot - Version: 4.16 - By: Heals
+07/22/2025 19:49:21.398 | DEBUG    |                       PolPluginManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.398 | DEBUG    |                             AshitaCore::Initialize | <End> [Status: Ok!]
+07/22/2025 19:49:21.398 | DEBUG    |                    Ashita::Hooks::DirectX::Install | <Begin>
+07/22/2025 19:49:21.398 | DEBUG    |                    Ashita::Hooks::DirectX::Install | <End> [Status: Ok!]
+07/22/2025 19:49:21.398 | DEBUG    |                      Ashita::Hooks::Mutex::Install | <Begin>
+07/22/2025 19:49:21.399 | DEBUG    |                      Ashita::Hooks::Mutex::Install | <End> [Status: Ok!]
+07/22/2025 19:49:21.399 | DEBUG    |                   Ashita::Hooks::Registry::Install | <Begin>
+07/22/2025 19:49:21.399 | DEBUG    |                   Ashita::Hooks::Registry::Install | <End> [Status: Ok!]
+07/22/2025 19:49:21.399 | DEBUG    |                     Ashita::Hooks::Window::Install | <Begin>
+07/22/2025 19:49:21.399 | DEBUG    |                     Ashita::Hooks::Window::Install | <End> [Status: Ok!]
+07/22/2025 19:49:21.399 | DEBUG    |                     Ashita::Hooks::XInput::Install | <Begin>
+07/22/2025 19:49:21.400 | DEBUG    |                     Ashita::Hooks::XInput::Install | <End> [Status: Ok!]
+07/22/2025 19:49:23.055 | DEBUG    |        Ashita::Hooks::Window::Mine_CreateWindowExW | CreateWindowExW - Creating PlayOnline window. [dwExStyle: 0][dwStyle: 13238272][Pos: -2147483648 x -2147483648][Size: 653 x 517]
+07/22/2025 19:49:23.057 | DEBUG    |        Ashita::Hooks::Window::Mine_CreateWindowExW | CreateWindowExW - Creating PlayOnline Mask window. [dwExStyle: 8][dwStyle: -2130706432][Pos: -1 x -1][Size: 1921 x 1081]
+07/22/2025 19:49:23.063 | DEBUG    |    Ashita::Hooks::DirectX::Mine_DirectInput8Create | DirectInput8Create - Creating new DirectInput instance. [dwVersion: 2048]
+07/22/2025 19:50:30.967 | DEBUG    |        Ashita::Hooks::Window::Mine_CreateWindowExA | CreateWindowExA - Creating Final Fantasy XI window. [dwExStyle: 0][dwStyle: -2147483648][Pos: -2147483648 x -2147483648][Size: 1920 x 1080]
+07/22/2025 19:50:30.990 | DEBUG    |       Ashita::Hooks::DirectX::Mine_Direct3DCreate8 | Direct3DCreate8 - Creating new Direct3D instance. [SDKVersion: 220]
+07/22/2025 19:50:31.060 | DEBUG    |                       newIDirect3D8::newIDirect3D8 | .ctor
+07/22/2025 19:50:31.064 | DEBUG    |                        newIDirect3D8::CreateDevice | Creating a new graphics device..
+07/22/2025 19:50:31.116 | DEBUG    |           newIDirect3DDevice8::newIDirect3DDevice8 | .ctor
+07/22/2025 19:50:31.116 | DEBUG    |                             AshitaCore::GameLoaded | GameLoaded event invoked.
+07/22/2025 19:50:31.116 | DEBUG    |                           ResourceManager::Release | <Begin>
+07/22/2025 19:50:31.116 | DEBUG    |                           ResourceManager::Release | <End> [Status: Ok!]
+07/22/2025 19:50:31.116 | DEBUG    |                        ResourceManager::Initialize | <Begin>
+07/22/2025 19:50:31.116 | DEBUG    |                           ResourceManager::Release | <Begin>
+07/22/2025 19:50:31.116 | DEBUG    |                           ResourceManager::Release | <End> [Status: Ok!]
+07/22/2025 19:50:31.131 | DEBUG    |                        ResourceManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:50:31.131 | DEBUG    |                            ResourceManager::Update | <Begin>
+07/22/2025 19:50:31.131 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\\ashita\ashita.datmap.ini
+07/22/2025 19:50:31.134 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\\ashita\custom.datmap.ini
+07/22/2025 19:50:31.332 | DEBUG    |                            ResourceManager::Update | Resource parsing completed in: 201.251200ms [Status: 1]
+07/22/2025 19:50:31.332 | DEBUG    |                            ResourceManager::Update | <End> [Status: Ok!]
+07/22/2025 19:50:31.332 | DEBUG    |                               InputManager::Update | <Begin>
+07/22/2025 19:50:31.332 | DEBUG    |                                       Mouse::Mouse | .ctor
+07/22/2025 19:50:31.332 | DEBUG    |                                  Mouse::Initialize | <Begin>
+07/22/2025 19:50:31.332 | DEBUG    |                                  Mouse::Initialize | <End> [Status: Ok!]
+07/22/2025 19:50:31.332 | DEBUG    |                             InputManager::SetMouse | Setting new mouse instance..
+07/22/2025 19:50:31.332 | DEBUG    |                               InputManager::Update | <End> [Status: Ok!]
+07/22/2025 19:50:31.332 | DEBUG    |                              OffsetManager::Update | <Begin>
+07/22/2025 19:50:31.332 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\\ashita\ashita.offsets.ini
+07/22/2025 19:50:31.333 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\\ashita\custom.offsets.ini
+07/22/2025 19:50:31.333 | WARN     |                         ConfigurationManager::Load | Configuration file has invalid section names or no data: C:\Ashita\Ashita-v4beta\\config\\ashita\custom.offsets.ini
+07/22/2025 19:50:31.334 | DEBUG    |                              OffsetManager::Update | <End> [Status: Ok!]
+07/22/2025 19:50:31.334 | DEBUG    |                             PointerManager::Update | <Begin>
+07/22/2025 19:50:31.334 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\\ashita\ashita.pointers.ini
+07/22/2025 19:50:31.337 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\\ashita\custom.pointers.ini
+07/22/2025 19:50:31.337 | WARN     |                         ConfigurationManager::Load | Configuration file has invalid section names or no data: C:\Ashita\Ashita-v4beta\\config\\ashita\custom.pointers.ini
+07/22/2025 19:50:31.340 | DEBUG    |                             PointerManager::Update | Pointer: (04D5F07C) [Ok!] autofollow
+07/22/2025 19:50:31.340 | DEBUG    |                             PointerManager::Update | Pointer: (04DBB2F5) [Ok!] castbar
+07/22/2025 19:50:31.340 | DEBUG    |                             PointerManager::Update | Pointer: (04E67750) [Ok!] chat.addchatmessage
+07/22/2025 19:50:31.341 | DEBUG    |                             PointerManager::Update | Pointer: (04EF7280) [Ok!] chat.inputtext.this
+07/22/2025 19:50:31.341 | DEBUG    |                             PointerManager::Update | Pointer: (04D51EC2) [Ok!] chat.logfile
+07/22/2025 19:50:31.341 | DEBUG    |                             PointerManager::Update | Pointer: (04EFA490) [Ok!] chat.parseautotranslate
+07/22/2025 19:50:31.341 | DEBUG    |                             PointerManager::Update | Pointer: (04E1A385) [Ok!] chat.parseautotranslate.this
+07/22/2025 19:50:31.341 | DEBUG    |                             PointerManager::Update | Pointer: (04DC0BD0) [Ok!] chat.parseinputtext
+07/22/2025 19:50:31.341 | DEBUG    |                             PointerManager::Update | Pointer: (04DC0BF2) [Ok!] chat.parseinputtext.this
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04DB7F8C) [Ok!] clientversion
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04796533) [Ok!] config.autodisconnect
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04EF8592) [Ok!] config.languagefilter
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04D43A20) [Ok!] entitymap
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04DD579B) [Ok!] entitymap.size
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E2B166) [Ok!] inventory
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E58325) [Ok!] inventory.selecteditem
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E9E802) [Ok!] menu
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E1D430) [Ok!] packets.decryptbuffer
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E1D300) [Ok!] packets.encryptbuffer
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E3BFE0) [Ok!] packets.queuepacket1
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E1DA90) [Ok!] packets.queuepacket2
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04F40EBB) [Ok!] party
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04DD8D8F) [Ok!] party.statusicons
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E86A5A) [Ok!] player
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E25C50) [Ok!] player.hasability
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04DD7C94) [Ok!] player.haskeyitem
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E2FCB0) [Ok!] player.hasspell
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E30BC0) [Ok!] player.joblevels
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04E30C00) [Ok!] player.jobmasterlevels
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04DCE6AA) [Ok!] player.loginstatus
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04DC740F) [Ok!] player.petmp
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04DDCD3D) [Ok!] player.pettp
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04F62694) [Ok!] recast.abilities
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04F691F2) [Ok!] recast.spells
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04DBA427) [Ok!] target.settarget
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer: (04DC8A13) [Ok!] target.target
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | Pointer scan completed in: 15.385800ms
+07/22/2025 19:50:31.349 | DEBUG    |                             PointerManager::Update | <End> [Status: Ok!]
+07/22/2025 19:50:31.349 | DEBUG    |                            FontManager::Initialize | <Begin>
+07/22/2025 19:50:31.349 | DEBUG    |                            FontManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:50:31.349 | DEBUG    |                       PrimitiveManager::Initialize | <Begin>
+07/22/2025 19:50:31.349 | DEBUG    |                       PrimitiveManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:50:31.349 | DEBUG    |                             GuiManager::Initialize | <Begin>
+07/22/2025 19:50:31.350 | DEBUG    |                           GuiManager::PrepareFonts | Loaded Font: Agave_Regular, 18px - is_jp: 0
+07/22/2025 19:50:31.351 | DEBUG    |                           GuiManager::PrepareFonts | Loaded Font: Agave_Regular, 24px - is_jp: 0
+07/22/2025 19:50:31.352 | DEBUG    |                           GuiManager::PrepareFonts | Loaded Font: Agave_Regular, 32px - is_jp: 0
+07/22/2025 19:50:31.447 | DEBUG    |                             GuiManager::Initialize | <End> [Status: Ok!]
+07/22/2025 19:50:31.447 | DEBUG    |                              MemoryManager::Update | <Begin>
+07/22/2025 19:50:31.447 | DEBUG    |                              MemoryManager::Update | <End> [Status: Ok!]
+07/22/2025 19:50:31.447 | DEBUG    |                                ChatManager::Update | <Begin>
+07/22/2025 19:50:31.447 | DEBUG    |                                ChatManager::Update | Hooking game function: AddChatMessage
+07/22/2025 19:50:31.447 | DEBUG    |                                ChatManager::Update | Hooking game function: ParseAutoTranslate
+07/22/2025 19:50:31.447 | DEBUG    |                                ChatManager::Update | Hooking game function: ParseInputText
+07/22/2025 19:50:31.447 | DEBUG    |                                ChatManager::Update | Detour transaction result: 0 [Success]
+07/22/2025 19:50:31.447 | DEBUG    |                   CommandTaskPool::CommandTaskPool | .ctor
+07/22/2025 19:50:31.447 | DEBUG    |                        CommandTaskPool::Initialize | <Begin>
+07/22/2025 19:50:31.447 | DEBUG    |                     CommandTaskPool::CreateThreads | Creating task pool; thread count: 16
+07/22/2025 19:50:31.447 | DEBUG    |                        CommandTaskPool::Initialize | <End> [Status: Ok!]
+07/22/2025 19:50:31.447 | DEBUG    |                                ChatManager::Update | <End> [Status: Ok!]
+07/22/2025 19:50:31.447 | DEBUG    |                              PacketManager::Update | <Begin>
+07/22/2025 19:50:31.447 | DEBUG    |                              PacketManager::Update | Hooking game function: DecryptBuffer
+07/22/2025 19:50:31.447 | DEBUG    |                              PacketManager::Update | Hooking game function: EncryptBuffer
+07/22/2025 19:50:31.447 | DEBUG    |                              PacketManager::Update | <End> [Status: Ok!]
+07/22/2025 19:50:31.447 | DEBUG    |                              PluginManager::Update | <Begin>
+07/22/2025 19:50:31.447 | DEBUG    |                              PluginManager::Update | <End> [Status: Ok!]
+07/22/2025 19:50:31.447 | DEBUG    |                             AshitaCore::GameLoaded | GameLoaded event finished.
+07/22/2025 19:50:31.480 | DEBUG    |    Ashita::Hooks::DirectX::Mine_DirectInput8Create | DirectInput8Create - Creating new DirectInput instance. [dwVersion: 2048]
+07/22/2025 19:50:31.480 | DEBUG    |               newIDirectInput8A::newIDirectInput8A | .ctor
+07/22/2025 19:50:31.480 | DEBUG    |                    newIDirectInput8A::CreateDevice | Creating input device: {6F1D2B61,D5A0,11CF,BF,C7,44,45,53,54,00,00}
+07/22/2025 19:50:31.480 | DEBUG    |   newIDirectInputDevice8A::newIDirectInputDevice8A | .ctor
+07/22/2025 19:50:31.480 | DEBUG    |                                 Keyboard::Keyboard | .ctor
+07/22/2025 19:50:31.480 | DEBUG    |                          InputManager::SetKeyboard | Setting new keyboard instance..
+07/22/2025 19:50:31.480 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/thirdparty.dll'
+07/22/2025 19:50:31.481 | DEBUG    |                                PluginManager::Load | Loaded plugin: thirdparty - Version: 4.10 - By: atom0s
+07/22/2025 19:50:31.481 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/addons.dll'
+07/22/2025 19:50:31.484 | DEBUG    |                                PluginManager::Load | Loaded plugin: Addons - Version: 2.40 - By: Ashita Development Team
+07/22/2025 19:50:31.484 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/screenshot.dll'
+07/22/2025 19:50:31.485 | DEBUG    |                                PluginManager::Load | Loaded plugin: screenshot - Version: 4.10 - By: atom0s
+07/22/2025 19:50:31.485 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/pivot.dll'
+07/22/2025 19:50:31.485 | ERROR    |                                PluginManager::Load | Failed to load plugin 'pivot'; LoadLibraryA failed. (Error: 126) (Det går inte att hitta den angivna modulen.).
+07/22/2025 19:50:31.485 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/hardwaremouse.dll'
+07/22/2025 19:50:31.487 | DEBUG    |                                PluginManager::Load | Loaded plugin: hardwaremouse - Version: 4.10 - By: atom0s
+07/22/2025 19:50:31.487 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/minimap.dll'
+07/22/2025 19:50:31.498 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\\minimap\minimap.ini
+07/22/2025 19:50:31.498 | DEBUG    |                         ConfigurationManager::Load | Loading configuration file: C:\Ashita\Ashita-v4beta\\config\\minimap\themes\circle\theme.ini
+07/22/2025 19:50:31.502 | DEBUG    |                                PluginManager::Load | Loaded plugin: Minimap - Version: 1.06 - By: atom0s
+07/22/2025 19:50:31.502 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/nameplate.dll'
+07/22/2025 19:50:31.503 | ERROR    |                                PluginManager::Load | Failed to load plugin 'nameplate'; LoadLibraryA failed. (Error: 126) (Det går inte att hitta den angivna modulen.).
+07/22/2025 19:50:31.503 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/sequencer.dll'
+07/22/2025 19:50:31.503 | DEBUG    |                                PluginManager::Load | Loaded plugin: Sequencer - Version: 1.01 - By: Thorny
+07/22/2025 19:50:31.503 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/stylist.dll'
+07/22/2025 19:50:31.507 | DEBUG    |                                PluginManager::Load | Loaded plugin: Stylist - Version: 1.17 - By: Thorny
+07/22/2025 19:50:31.507 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/packetflow.dll'
+07/22/2025 19:50:31.508 | ERROR    |                                PluginManager::Load | Failed to load plugin 'packetflow'; LoadLibraryA failed. (Error: 126) (Det går inte att hitta den angivna modulen.).
+07/22/2025 19:50:31.508 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/shorthand.dll'
+07/22/2025 19:50:31.518 | DEBUG    |                                PluginManager::Load | Loaded plugin: Shorthand - Version: 1.23 - By: Thorny
+07/22/2025 19:50:31.518 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.518 | DEBUG    |                                PluginManager::Load | Calling LoadLibraryA on: 'C:\Ashita\Ashita-v4beta\/plugins/findall.dll'
+07/22/2025 19:50:31.520 | DEBUG    |                                PluginManager::Load | Loaded plugin: FindAll - Version: 1.17 - By: Thorny
+07/22/2025 19:50:31.520 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.520 | ERROR    |                                PluginManager::Load | Failed to load plugin 'stylist'; plugin is already loaded.
+07/22/2025 19:50:31.520 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.520 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.529 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.534 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.540 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.545 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.551 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.557 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.562 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.568 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.574 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.579 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.584 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.590 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.596 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.601 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.607 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.613 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.618 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.623 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.629 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.634 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.640 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.647 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.652 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.658 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.663 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.663 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.663 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.663 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.669 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.675 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.675 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.680 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.686 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.692 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.698 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.703 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.709 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.715 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.721 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.726 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:31.732 | ERROR    |                    ChatManager::ParseAutoTranslate | Invalid 'this' pointer; cannot auto-translate code tags!
+07/22/2025 19:50:56.589 | DEBUG    |                    PacketManager::PatchLogFilePath | Patched log file path! [Path: TEMP/Tjonke]
+07/22/2025 19:51:12.515 | ERROR    |                                            FindAll | Could not find any items matching the term: *abd*.
+07/22/2025 19:51:20.970 | ERROR    |                                            FindAll | Could not find any items matching the term: *abd*.
+07/22/2025 19:51:33.082 | INFO     |                                            FindAll | Found 4 silver A.M.A.N. vouchers in Ebisurods's satchel.
+07/22/2025 19:51:33.082 | INFO     |                                            FindAll | Found a silver A.M.A.N. voucher in Tjonke's inventory.
+07/22/2025 19:51:33.082 | INFO     |                                            FindAll | Found a total of 5 silver A.M.A.N. vouchers on 2 characters.
+07/22/2025 19:51:43.594 | INFO     |                                            FindAll | Found a Abdhaljs's Honor in Tjonke's safe2.
+07/22/2025 19:51:53.342 | INFO     |                                            FindAll | Found a Abdhaljs's Honor in Tjonke's safe2.
+07/22/2025 19:51:53.342 | INFO     |                                            FindAll | Found 5 containers of Abdhaljs resin in Tjonke's sack.
+07/22/2025 19:51:53.343 | INFO     |                                            FindAll | Found 105 vials of Abdhaljs metal in Tjonke's sack.
+07/22/2025 19:51:53.343 | INFO     |                                            FindAll | Found 54 loops of Abdhaljs fiber in Tjonke's sack.
+07/22/2025 19:51:53.343 | INFO     |                                            FindAll | Found 5 Abdhaljs nuggets in Tjonke's sack.
+07/22/2025 19:51:53.343 | INFO     |                                            FindAll | Found 5 Abdhaljs gems in Tjonke's sack.
+07/22/2025 19:51:53.343 | INFO     |                                            FindAll | Found 5 Abdhaljs anima in Tjonke's sack.
+07/22/2025 19:51:53.343 | INFO     |                                            FindAll | Found 12 chunks of Abdhaljs matter in Tjonke's sack.
+07/22/2025 19:51:53.343 | INFO     |                                            FindAll | Found a total of 192 matching items on Tjonke.

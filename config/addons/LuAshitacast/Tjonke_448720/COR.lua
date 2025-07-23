@@ -10,13 +10,13 @@ local sets = {
         Ear1 = 'Eabani Earring',
         Ear2 = 'Infused Earring',
         Body = 'Nyame Mail',
-        Hands = 'Nyame Gauntlets',
+        Hands = 'Malignance Gloves',
         Ring2 = 'Defending Ring',
         Ring1 = 'Lunette Ring +1',
         Back = 'Null Shawl',
         Waist = 'Plat. Mog. Belt',
-        Legs = 'Nyame Flanchard',
-        Feet = 'Nyame Sollerets',
+        Legs = 'Malignance Tights',
+        Feet = 'Malignance Boots',
     },
     Idle_TPgun = {
        Range = 'Fomalhaut',
@@ -51,7 +51,9 @@ local sets = {
 		Waist = 'Plat. Mog. Belt',
         Ring1 = 'Petrov Ring',
         Ring2 = 'Epona\'s Ring',
-        Legs = 'Carmine Cuisses +1',
+        Ear1 = 'Crep. Earring',
+		Ear2 = 'Chas. Earring +2',
+		Legs = 'Carmine Cuisses +1',
         Feet = 'Lanun Bottes +3',
 		Back = 'Moonlight Cape',
     },
@@ -62,13 +64,13 @@ local sets = {
         Ear1 = { Name = 'Odnowa Earring +1', AugPath='A' },
         Ear2 = 'Tuisto Earring',
         Body = 'Nyame Mail',
-        Hands = 'Nyame Gauntlets',
+        Hands = 'Malignance Gloves',
         Ring2 = 'Defending Ring',
         Ring1 = 'Chirich Ring +1',
         Back = 'Moonlight Cape',
         Waist = 'Plat. Mog. Belt',
         Legs = 'Malignance Tights',
-        Feet = 'Malignance boots',
+        Feet = 'Malignance Boots',
     },
 
     Tp_Default = {
@@ -89,13 +91,15 @@ local sets = {
         Head = 'Null Mask',
         Hands = 'Nyame Gauntlets',
 		Legs = 'Malignance Tights',
+		Hands = 'Malignance Gloves',
 		Feet = 'Malignance Boots',
     },
     Tp_Acc = {
         Head = 'Null Masque',
         Body = 'Chasseur\'s Frac +2',
         Hands = 'Chasseur\'s Gants +3',
-        Neck = 'Null Loop',
+        Ear2 = 'Chas. Earring +2',
+		Neck = 'Null Loop',
 		Legs = 'Chas. Culottes +2',
 		Feet = 'Meg. Jam +2',
 		Ring1 = 'Chirich Ring +1',
@@ -106,13 +110,11 @@ local sets = {
 
 
     Precast = {
-         Ear1 = 'Enchntr. Earring +1', --2
-        Ear2 = 'Loquac. Earring',--1
+        Ear1 = 'Enchntr. Earring +1', --2
         Neck = 'Voltsurge Torque',
-		Body = 'Taeon Tabard',
-        Hands = 'Leyline Gloves',
+		Hands = 'Leyline Gloves',
         Ring1 = 'Medada\'s Ring',
-		Ring2 = 'Lebeche Ring',
+		Ring2 = 'Kishar Ring',
         Legs = 'Carmine Cuisses +1',
     },
 
@@ -121,7 +123,7 @@ local sets = {
         Neck = 'Incanter\'s Torque',
         Ear1 = 'Mendi. Earring',
         Ring1 = 'Stikini Ring +1',
-        Ring2 = { Name = 'Metamor. Ring +1', AugPath='A' },
+        Ring2 = 'Stikini Ring +1',
         Back = 'Solemnity Cape',
         Legs = 'Carmine Cuisses +1',
     },
@@ -166,6 +168,7 @@ local sets = {
         Back = 'Navarch\'s Mantle', --7
         Waist = 'K. Kachina Belt +1',--3
         -- Legs = 'Ikenga\'s Trousers',--8
+		Ring1 = 'Crepuscular Ring',
         Legs = 'Chas. Culottes +2',--10
         Feet = 'Meg. Jam. +2',--10
     },
@@ -177,11 +180,11 @@ local sets = {
     Midshot = {
         Head = 'Ikenga\'s Hat',
         Neck = 'Ocachi Gorget',
-        Ear1 = 'Telos Earring',
-        Ear2 = 'Chas. Earrign +1',
+        Ear1 = 'Crep. Earring',
+        Ear2 = 'Chas. Earrign +2',
         Body = 'Ikenga\'s Vest',
         Hands = 'Ikenga\'s Gloves',
-        Ring1 = 'Meghanada Ring',
+        Ring1 = 'Crepuscular Ring',
         Ring2 = 'Ilabrat Ring',
         Back = 'Null Shawl', 
 		Waist = 'Eschan Stone',
@@ -189,8 +192,8 @@ local sets = {
         Feet = 'Ikenga\'s Clogs',
     },
     Midshot_Acc = {
-        Ear1 = 'Telos Earring',
-        Ear2 = 'Chas. Earring +1',
+        Ear1 = 'Crep. Earring',
+        Ear2 = 'Chas. Earring +2',
         Neck = 'Null Loop', 
 		Body = 'Chasseur\'s. Frac +2',
         Ring1 = 'Meghanada Ring',
@@ -224,15 +227,14 @@ local sets = {
     },
 
     Savage_Default = {
-        Neck = 'Asperity Necklace',
-        Ear1 = 'Telos Earring',
+        Neck = 'Rep. Plat. Medal',
+        Ear1 = 'Ishvara Earring',
         Ear2 = 'Moonshade Earring',
         Hands = 'Chasseur\'s Gants +3',
         Ring1 = 'Petrov Ring',
-        Ring2 = 'Epona\'s Ring',
-        Back = 'Null Mantle',
+        Ring2 = 'Epaminondas\'s Ring',
         Waist = 'Sailfi Belt +1',
-        Legs = 'Meg. Chausses +2',
+        Legs = 'Nyame Flanchard',
         Feet = 'Lanun Bottes +3',
 		Back = { Name = 'Camulus\'s Mantle', Augment = { [1] = 'Phys. dmg. taken -10%', [2] = 'Rng.Acc.+10', [3] = 'Weapon skill damage +10%', [4] = 'AGI+20', [5] = 'Rng.Atk.+5' } },
     },
@@ -252,7 +254,7 @@ local sets = {
         Body = 'Meg. Cuiriet +2',
         Hands = 'Chasseur\'s Gants +3',
         Ring1 = 'Chirich Ring +1',
-        Ring2 = 'Rajas Ring',
+        Ring2 = 'Epaminondas\'s Ring',
         Waist = 'Fotia Belt',
         Legs = 'Meg. Chausses +2',
         Feet = 'Adhe. Gamashes +1',
@@ -293,11 +295,11 @@ local sets = {
         Ear1 = 'Moonshade Earring',
         Body = 'Laksa. Frac +3',
         Hands = 'Chasseur\'s Gants +3',
-        Ring1 = 'Paqichikaji Ring',
+        Ring1 = 'Epaminondas\'s Ring',
         Ring2 = 'Ilabrat Ring',
         Back = { Name = 'Camulus\'s Mantle', Augment = { [1] = 'Phys. dmg. taken -10%', [2] = 'Rng.Acc.+10', [3] = 'Weapon skill damage +10%', [4] = 'AGI+20', [5] = 'Rng.Atk.+5' } },
 		Waist = 'Fotia Belt',
-        Legs = 'Meg. Chausses +2',
+        Legs = 'Nyame Flanchard',
         Feet = 'Lanun Bottes +3',
     },
     Laststand_Hybrid = {
@@ -313,7 +315,7 @@ local sets = {
         Ear2 = 'Moonshade Earring',
         Body = 'Lanun Frac +3',
         Hands = 'Chasseur\'s Gants +3',
-        Ring1 = 'Acumen Ring',
+        Ring1 = 'Epaminondas\'s Ring',
         Ring2 = 'Medada\'s Ring',
         Back = { Name = 'Camulus\'s Mantle', Augment = { [1] = 'Mag. Acc.+20', [2] = 'Weapon skill damage +10%', [3] = 'Mag. Evasion+15', [4] = 'AGI+25', [5] = 'Magic Damage+20' } },
         Waist = 'Eschan Stone',
@@ -334,7 +336,7 @@ local sets = {
         Ear2 = 'Moonshade Earring',
         Body = 'Lanun Frac +3',
         Hands = 'Chasseur\'s Gants +3',
-        Ring1 = 'Acumen Ring',
+        Ring1 = 'Epaminondas\'s Ring',
         Ring2 = 'Medada\'s Ring',
         Back = { Name = 'Camulus\'s Mantle', Augment = { [1] = 'Mag. Acc.+20', [2] = 'Weapon skill damage +10%', [3] = 'Mag. Evasion+15', [4] = 'AGI+25', [5] = 'Magic Damage+20' } },
         Waist = 'Svelt. Gouriz +1',
@@ -367,8 +369,8 @@ local sets = {
         Ammo = 'Devastating Bullet',
         Head = 'Chass. Tricorne +2',
         Neck = 'Null Loop',
-        Ear1 = 'Telos Earring',
-		Ear2 = 'Chas. Earring +1',
+        Ear1 = 'Crep. Earring',
+		Ear2 = 'Chas. Earring +2',
         Body = 'Meg. Cuirie +2',
         Hands = 'Chasseur\'s Gants +3',
         Ring1 = 'Acumen Ring',
@@ -467,6 +469,7 @@ profile.HandleAbility = function()
     elseif (ability.Name == 'Fold') then gFunc.EquipSet(sets.Fold);
 	elseif (ability.Name == 'Random Deal') then gFunc.EquipSet(sets.RandomDeal);
     elseif (ability.Name == 'Snake Eye') then gFunc.EquipSet(sets.SnakeEye);
+	elseif (ability.Name == 'Double Up') then gFun.EquipSet(set.Rolls);
     elseif (ability.Name:contains('Shot')) and (ability.Name ~= 'Triple Shot') then
         gFunc.EquipSet(sets.QD);
         if (gcdisplay.GetCycle('Melee') == 'Acc') or (ability.Name == 'Dark Shot') or (ability.Name == 'Light Shot') then

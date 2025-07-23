@@ -9,7 +9,7 @@ settings["font"]["color"] = 4294901760;
 settings["font"]["visible"] = true;
 settings["font"]["background"]["visible"] = true;
 settings["font"]["background"]["color"] = 2147483648;
-settings["font"]["position_y"] = 607;
-settings["font"]["position_x"] = 133;
+settings["font"]["position_y"] = 613;
+settings["font"]["position_x"] = 136;
 
 return settings;
